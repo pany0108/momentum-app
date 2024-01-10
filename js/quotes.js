@@ -48,13 +48,14 @@ const todaysQuotes = quotes[Math.floor(Math.floor(Math.random() * quotes.length)
 quote.innerText = todaysQuotes.quote;
 author.innerText = todaysQuotes.author;
 
-/* 소수점 없애주는 함수
-Math.round(1.8) --> 1
-Math.round(1.4) --> 1
-
-Math.ceil(1.8) --> 2
-Math.ceil(1.4) --> 1
-
-Math.floor(1.8) --> 1
-Math.floor(1.4) --> 1 
-*/
+/**
+ * 소수점 없애주는 함수
+ * Math.round(1.8) --> 1
+ * Math.round(1.4) --> 1
+ *
+ * Math.ceil(1.8) --> 2
+ * Math.ceil(1.4) --> 1
+ *
+ * Math.floor(1.8) --> 1
+ * Math.floor(1.4) --> 1
+ */
